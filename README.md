@@ -10,15 +10,21 @@ We find that the performance on these tasks somewhat corresponds to the amount o
 Although the models perform reasonably well in most languages, the frequent performance drop from English is significant.
 Thus, we recommend that practitioners first verify that the LLM works well in the target language for their educational task before deployment.
 
+<img src="meta/results_main.svg" width="900em">
+
 ## Data structure
 
 The dataset covers four tasks:
-- TODO
-- TODO
-- TODO
-- TODO
+- Misconception identification
+- Feedback selection
+- Tutoring
+- Translation grading
 
 The data is split per language in [`data/`](data/), together with description of the data format.
+
+> [!WARNING]  
+> The public data contains only Tutoring and Translation grading, with Misconception and Feedback tasks data being gated.
+> For inquiries, please send us a private message.
 
 ## Reproducing the dataset
 
@@ -36,4 +42,4 @@ If you use this work, please cite as:
 TODO TODO BibTeX
 ```
 
-For more information, contact 
+For more information, contact [`spalchowd@ethz.ch`](mailto:spalchowd@ethz.ch).
