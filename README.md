@@ -1,6 +1,6 @@
 # Multilingual Educational LLM bias
 
-This repository accompanies the paper **Multilingual Performance Biases of Large Language Models in Education** with 
+This repository accompanies the paper **Multilingual Performance Biases of Large Language Models in Education** with dataset in [`data/`](data/).
 
 > **Abstract:**
 > Large language models (LLMs) are increasingly being adopted in educational settings.
@@ -18,8 +18,7 @@ The dataset covers four tasks:
 - TODO
 - TODO
 
-The data is available in this repository in [`data/`](data/).
-With the structure being TODO.
+The data is split per language in [`data/`](data/), together with description of the data format.
 
 ## Reproducing the dataset
 
@@ -36,3 +35,5 @@ If you use this work, please cite as:
 ```
 TODO TODO BibTeX
 ```
+
+For more information, contact 
