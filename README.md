@@ -26,13 +26,9 @@ The data is split per language in [`data/`](data/), together with description of
 > The public data contains only Tutoring and Translation grading, with Misconception and Feedback tasks data being gated.
 > For inquiries, please send us a private message.
 
-## Reproducing the dataset
+## Reproducing the dataset and analysis
 
-See readme files in respective forders
-
-## Reproducing the analysis
-
-TODO
+See [`scripts/`](scripts/) and READMEs in respective directories.
 
 ## Misc.
 
