@@ -28,7 +28,7 @@ The data is split per language in [`data/`](data/), together with description of
 
 ## Reproducing the dataset
 
-TODO
+See readme files in respective forders
 
 ## Reproducing the analysis
 
