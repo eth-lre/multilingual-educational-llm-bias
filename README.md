@@ -1,6 +1,6 @@
 # Multilingual Educational LLM bias
 
-This repository accompanies the paper **Multilingual Performance Biases of Large Language Models in Education** with dataset in [`data/`](data/).
+This repository accompanies the paper [**Multilingual Performance Biases of Large Language Models in Education**](https://arxiv.org/abs/2504.17720).
 
 > **Abstract:**
 > Large language models (LLMs) are increasingly being adopted in educational settings.
@@ -20,10 +20,10 @@ The dataset covers four tasks:
 - Tutoring
 - Translation grading
 
-The data is split per language in [`data/`](data/), together with description of the data format.
+The dataset, split per language, is present in [`data/`](data/), together with the description of the data format.
 
 > [!WARNING]  
-> The public data contains only Tutoring and Translation grading, with Misconception and Feedback tasks data being gated.
+> The public data contains only tutoring and translation grading, with misconception and feedback task data being gated.
 > For inquiries, please send us a private message.
 
 ## Reproducing the dataset and analysis
@@ -34,8 +34,16 @@ See [`scripts/`](scripts/) and READMEs in respective directories.
 
 If you use this work, please cite as:
 
-```
-TODO TODO BibTeX
+```bibtex
+@misc{gupta2025multilingualperformancebiaseslarge,
+      title={Multilingual Performance Biases of Large Language Models in Education}, 
+      author={Vansh Gupta and Sankalan Pal Chowdhury and Vilém Zouhar and Donya Rooein and Mrinmaya Sachan},
+      year={2025},
+      eprint={2504.17720},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2504.17720}, 
+}
 ```
 
 For more information, contact [`spalchowd@ethz.ch`](mailto:spalchowd@ethz.ch).
